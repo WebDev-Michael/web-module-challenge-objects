@@ -111,12 +111,10 @@ Use the addReview function below to do the following:
 
 
 function addReview(array, name, rating, feedback){
-  reviews.name = name;
-  reviews.rating = rating;
-  reviews.feedback = feedback;
+  
+  array.push({name, rating, feedback});
   return reviews;
 }
-
 console.log('task 5:', addReview(reviews, 'Daniela', 5, 'great eats!'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -171,9 +169,9 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
-  }
+//  function getReviewByRating(/* code here */) {
+//     /* code here */
+//   }
 
   
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
@@ -189,9 +187,9 @@ Use the getLongReviews function below to do the following:
   ]
 */
 
-function getLongReviews(/* code here */) {
-    /* code here */
-  }
+// function getLongReviews(/* code here */) {
+//     /* code here */
+//   }
   
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪💪💪💪💪 
@@ -212,10 +210,10 @@ Use the carMaker function below to do the following:
 */
 
 
-function carMaker(/* code here */) {
-    /* code here */
+// function carMaker(/* code here */) {
+//     /* code here */
     
-}
+// }
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
